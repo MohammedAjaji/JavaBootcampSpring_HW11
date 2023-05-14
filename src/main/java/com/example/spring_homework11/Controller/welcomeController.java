@@ -21,7 +21,7 @@ public class welcomeController {
     public String checkStatus(){
         return "Everything is OK";
     }
-    @GetMapping(path = "health")
+    @GetMapping(path = "/health")
     public String getHealth(){
         return "Server health is up and running";
     }
